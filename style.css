@@ -101,8 +101,4 @@ body{
         flex-direction: column;
         align-items: center;
     }
-    #to-do-list li{
-        font-size: .8em;
-    }
-
 }
