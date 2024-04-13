@@ -67,7 +67,7 @@ body{
 #to-do-list li{
     list-style-type: none;
     font-size: 1.4em;
-    text-transform: capitalize;
+    text-transform: uppercase;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -101,4 +101,8 @@ body{
         flex-direction: column;
         align-items: center;
     }
+    #to-do-list li{
+        font-size: 1em;
+    }
+
 }
