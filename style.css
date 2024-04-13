@@ -95,3 +95,10 @@ body{
 #btn-ok:hover{
     background-color: var(--color-green2);
 }
+@media screen and (max-width: 720px){
+    .container-content-add{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
